@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">Kalpaper</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Kalpaper</string>
+    <string name="description">Kaleidoscopio de simetría 4</string>
+    <string name="settings">Ajustes</string>
+    <string name="set_wallpaper">Asignar fondo de pantalla</string>
+    <string name="load_image">Cargar imagen</string>
+    
+</resources>

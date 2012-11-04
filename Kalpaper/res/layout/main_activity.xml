@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/settingsButton"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/settings" 
+        android:background="@drawable/borderless_background"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="48dp"
+        android:drawableLeft="@android:drawable/ic_menu_manage"
+         />
+
+    <Button
+        android:id="@+id/loadImageButton"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/borderless_background"
+        android:text="@string/load_image"
+        android:textColor="@android:color/white" 
+        android:drawableLeft="@android:drawable/ic_menu_gallery" />
+
+    <Button
+        android:id="@+id/setWallpaperButton"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/set_wallpaper" 
+        android:background="@drawable/borderless_background"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="48dp" />
+
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="174dp"
+        android:layout_height="114dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/fractal" />
+
+</LinearLayout>

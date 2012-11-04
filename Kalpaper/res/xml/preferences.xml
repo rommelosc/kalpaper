@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Seleccinar imagen" >
+
+        <ListPreference
+            android:defaultValue="fractal"
+            android:dialogTitle="Elige imagen"
+            android:entries="@array/imagenes"
+            android:entryValues="@array/imagenes"
+            android:key="imageDefaultPreference"
+            android:summary="Selecionar imagen de una lista"
+            android:title="Imagen" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Desplazamiento" >
+        <EditTextPreference
+            android:defaultValue="1300"
+            android:dialogTitle="Introduce valor en ms"
+            android:key="delayPreference"
+            android:summary="Retardo de desplazamiento"
+            android:title="Retardo" />
+
+        <ListPreference
+            android:defaultValue="4"
+            android:dialogTitle="Desplazamiento delta"
+            android:entries="@array/delta"
+            android:entryValues="@array/delta"
+            android:key="deltaPreference"
+            android:summary="Desplazamiento en pixeles"
+            android:title="Delta" />
+    </PreferenceCategory>
+PreferenceCategory >
+
+</PreferenceScreen>
